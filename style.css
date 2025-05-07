@@ -1,0 +1,53 @@
+p{text-align:justify; 
+    color: #264653;
+    font-size:18px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    max-width: 900px;
+}
+    body {
+    background-color: #fefae0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    color: #264653;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 ;
+    padding: 20px;}
+
+h2{text-align: center;
+    color: #2a9d8f;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-style: italic;
+    font-size: 28px;}
+
+h3{text-align: center;
+    font-size: 24px; 
+    color: #e76f51;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+
+h1{text-align: center;
+    font-size: 30px; 
+    color: #2a9d8f}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Відступи між зображеннями */
+    justify-content: center;
+    /* Центрування */
+}
+
+.gallery img {
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+    /* легке збільшення при наведенні */
+}
